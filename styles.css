@@ -1,0 +1,26 @@
+.samplecss-button {
+    -webkit-box-align: center;
+    align-items: center;
+    background: linear-gradient(rgb(36, 119, 170) 0%, rgb(100, 97, 224) 100%);
+    border-radius: 100px;
+    border: none;
+    box-shadow: none;
+    color: rgb(255, 255, 255);
+    display: inline-flex;
+    font-family: "Avenir Next", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 28px;
+    -webkit-box-pack: center;
+    justify-content: center;
+    position: relative;
+    transition: 0.3s 
+ease-out;
+    z-index: 0;
+    cursor: pointer;
+    width: 100%;
+    outline: none;
+    text-decoration: none;
+    min-width: 48px;
+    padding: 0.75rem 1.11111rem;
+}

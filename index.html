@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Examples</title>
+    <link rel="stylesheet" href="styles.css">
+    <body>
+      <h1>Javascript Examples</h1>
+      <section>
+        <h2>Color Changer</h2>
+        <button onClick="changeColor()">Change Colors</button>
+      </section>
+      <section>
+        <h2>Digital Clock</h2>
+        <div id="clock"></div>
+      </section>
+      <section>
+        <h2>Counter</h2>
+        <button onClick="decrement()">-</button>
+        <span id="countDisplay">0</span>
+        <button onClick="increment()">+</button>
+      </section>
+      <section>
+        <h2>Todo List</h2>
+        <input type="text" id="todoInput" placeholder="Enter a task">
+        <button onClick="addTodo()">Add Task</button>
+        <ul id="todoList"></ul>
+      </section>
+
+      <button data-testid="button-element-type" class="samplecss-button" type="button" tabindex="0">Try Calm for Free</button>
+
+
+
+      <script src="example/colorButton.js"></script>
+      <script src="clock.js"></script>
+      <script src="counter.js"></script>
+      <script src="todo.js"></script>
+    </body>
+</head>
